@@ -27,7 +27,7 @@ margin-bottom: 50px;
 margin-top: 50px;
 font: FreeMono, monospace;
 color: #0d0411;
-background-image: url("images/Untitled-2_page-0001 (3).jpg");
+background-image: url("https://raw.githubusercontent.com/C-Cara/C-Cara.github.io/b149749c46e59b37cae83cb8fc51b1af95713372/images/Untitled-2_page-0001%20(3).jpg");
 background-size:cover;
 background-color: #d2bddc;
 box-shadow: 10px 10px 8px #582670;
@@ -40,7 +40,7 @@ background-color: #ffffff;
 body {
     min-height: 100vh;
     background-color: #686369;
-    background-image: url("/Users/caracumberland/Coding/Portfolio/images/Untitled-2_page-0001.jpg");
+    background-image: url("https://raw.githubusercontent.com/C-Cara/C-Cara.github.io/b149749c46e59b37cae83cb8fc51b1af95713372/images/Untitled-2_page-0001%20(3).jpg");
     background-size:cover;
 }
 
@@ -111,7 +111,7 @@ a:any-link{
     width:100%;
     height: 50px;
     background-color: #00d0ff;
-    background-image: url("images/Untitled-2_page-0001 (3).jpg");
+    background-image: url("https://raw.githubusercontent.com/C-Cara/C-Cara.github.io/b149749c46e59b37cae83cb8fc51b1af95713372/images/Untitled-2_page-0001%20(3).jpg");
   }
 
   .art {
