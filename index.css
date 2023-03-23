@@ -52,7 +52,7 @@
 body {
     min-height: 100vh;
     background-color: #686369;
-    background-image: url("/Users/caracumberland/Coding/Portfolio/images/Untitled-2_page-0001.jpg");
+    background-image: url("images/Untitled-2_page-0001.jpg");
     background-size:cover;
 }
 
