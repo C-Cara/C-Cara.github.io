@@ -7,14 +7,19 @@ body {
 }
 
 .header {
-  position: sticky;
-  background-image: linear-gradient(to bottom, #574a5d, #483c4e);
-  font-size: 28px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin: 0 auto;
+  background-color: transparent;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  color: #a6a4b8;
-  padding: 20px 0;
+  color: #a6a4b8; 
+  padding: 25px 0;
 }
 .cd-container {
   width: 90%;
@@ -100,7 +105,7 @@ Main components
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img {
-  background:  #582670;
+  background: #291f29;;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -160,7 +165,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
    }
-    li {
+   .content-skills  li {
       background: #40484d;
       border-radius: 2px;
       display: inline-block;

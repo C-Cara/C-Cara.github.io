@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $(window).scroll(function(){
-    $('.cd-timeline-content').each(function(){
-      var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-      var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-      if( bottom_of_window > bottom_of_element ){
-        $(this).fadeTo(500, 1);
-      }
-    });
-  });
-});
-
-</script>
 	<title> Certificates</title>
     <link rel="icon" type="image/x-icon" href="images/—Pngtree—neon bar circular_3843928.png">
+    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="certs.css">
     <link rel="stylesheet" href="footer.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YP3J3E1XXZ"></script>
+  
 </head>
 <body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          
+          <!-- Some spans to act as a hamburger.  -->
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menux">
+            <a href="index.html"><li>Home</li></a>
+            <a href="card.html"><li>About</li></a>
+            <a href="#"><li>Certs</li></a>
+            <a href="https://1zoe3hf6aq8.typeform.com/to/B7ws205u"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    
     <h1 class="header">Certificates</h1>
     <section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
@@ -59,7 +65,7 @@ $(document).ready(function(){
 
 			<div class="cd-timeline-content">
 				<h2>Learn HTML Course</h2>
-                <img src="codeacedemy_page-0001.jpg" alt="html" style="width:400px;height:320px;">
+                <img src="images/codeacedemy_page-0001.jpg" alt="html" style="width:400px;height:320px;">
 			</div>
 				
 			</div> <!-- cd-timeline-content -->
@@ -71,7 +77,7 @@ $(document).ready(function(){
 
 			<div class="cd-timeline-content">
 				<h2>Google Ads for Beginners</h2>
-                <img src="Coursera YGQRB8DEA4EU_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
+                <img src="images/Coursera YGQRB8DEA4EU_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
 				
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -82,7 +88,7 @@ $(document).ready(function(){
 
 			<div class="cd-timeline-content">
 				<h2>Build Wordpress Website</h2> 
-                <img src="Coursera 7TFAVU2PC3YX_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
+                <img src="images/Coursera 7TFAVU2PC3YX_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
 			
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -93,7 +99,7 @@ $(document).ready(function(){
 
 			<div class="cd-timeline-content">
 				<h2>Facebook Marketing</h2>
-				<img src="Coursera 6RF2CJ67S97H_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
+				<img src="images/Coursera 6RF2CJ67S97H_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
 				
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -104,7 +110,7 @@ $(document).ready(function(){
 
 			<div class="cd-timeline-content">
 				<h2>Computer Networking</h2>
-				<img src="Coursera E2REBDK3ZH7T_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
+				<img src="images/Coursera E2REBDK3ZH7T_page-0001.jpg" alt="google ads" style="width:400px;height:320px;">
 			
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
